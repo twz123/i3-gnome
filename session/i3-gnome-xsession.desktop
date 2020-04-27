@@ -1,7 +1,7 @@
 [Desktop Entry]
-Name=I3 + GNOME
+Name=i3 + GNOME
 Comment=This session logs you into i3 with GNOME session integration
-Exec=gnome-session-i3
+Exec=env GNOME_SHELL_SESSION_MODE=classic gnome-session --session i3-gnome
 TryExec=i3-gnome
 Type=Application
 DesktopNames=GNOME

@@ -24,7 +24,8 @@ Allows you to use i3-wm with GNOME 3 Session infrastructure.
 Using `make`:
 * download the repo.
 * on the terminal go to the repo directory.
-* `sudo make install`
+* `sudo make install && sudo apt install gnome-session-flashback`
+* Edit i3 config according to https://zork.net/~st/jottings/gnome-i3.html#update-2020-04-15.
 
 ## Contributing
 * [Guidelines](https://github.com/i3-gnome/i3-gnome/wiki/Contributing)
@@ -40,4 +41,3 @@ Visit our [wiki](https://github.com/i3-gnome/i3-gnome/wiki) to get reference and
 
 ---
 MIT - © 2014-2017 [Lorenzo Villani](https://github.com/lvillani). 2017 i3-gnome team.
-
